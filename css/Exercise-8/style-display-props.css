@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin: 25px 0 10px 0;
+}
+
+.container-block {
+    margin: 10px 0;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.block {
+    display: block;
+    margin: 3px;
+    background-color: rgb(255, 156, 156);
+}
+
+.container-inline {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.inline {
+    margin: 1px;
+    display: inline;
+    background-color: rgb(154, 255, 173);
+}
+
+.container-flex-grow {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.flex-grow-1 {
+    margin: 1px 5px 1px 0;
+    flex-grow: 1;
+    background-color: rgb(255, 235, 154);
+}
+
+.flex-grow-4 {
+    margin: 1px 5px 1px 0;
+    flex-grow: 4;
+    background-color: rgb(168, 205, 251);
+}
+
+.container-flex-shrink {
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.flex-shrink-1 {
+    width: 200px;
+    margin: 1px 5px 1px 0;
+    flex-shrink: 10;
+    background-color: rgb(154, 233, 255);
+}
+
+.flex-shrink-2 {
+    width: 200px;
+    margin: 1px 5px 1px 0;
+    flex-shrink: 20;
+    background-color: rgb(169, 146, 254);
+}
+
+.flex-shrink-4 {
+    width: 200px;
+    margin: 1px 5px 1px 0;
+    flex-shrink: 40;
+    background-color: rgb(255, 183, 237);
+}
