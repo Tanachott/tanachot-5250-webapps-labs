@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10 643040525-0 Tanachot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            background-color: #212121;
+            overflow: hidden;
+        }
+        
+        .box {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .box-img {
+            display: block;
+            text-align: center;
+        }
+
+        .img {
+            border-radius: 15px;
+            width: 70%;
+        }
+
+        h4 {
+            text-align: center;
+            padding: 5px;
+        }
+
+        p {
+            text-align: center;
+            padding: 5px;
+        }
+
+        @media  (min-width: 1024px) { 
+            h2 {
+                color: white;
+                padding: 7px 15px;
+                margin: 5px 5px 5px 0;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            li a {
+                display: inline;
+                color: white;
+                padding: 5px 20px 10px 20px;
+                text-decoration: none;
+            }
+
+            .box-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin: 7px;
+        }
+        }
+
+        @media  (max-width: 1023px) { 
+            h2 {
+                color: white;
+                padding: 7px 15px;
+                margin: 5px 5px 5px 0;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                float: left;
+                margin-bottom: 10px;
+            }
+
+            li a {
+                display: inline;
+                color: white;
+                padding: 5px 20px 10px 20px;
+                text-decoration: none;
+            }
+
+            .box-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin: 7px;
+        }
+        }
+
+        @media  (max-width: 768px) { 
+            h2 {
+                color: white;
+                padding: 7px 15px;
+                margin: 5px 5px 5px 0;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                float: none;
+                margin-bottom: 8px;
+            }
+
+            li a {
+                display: inline;
+                color: white;
+                padding: 5px 20px 10px 20px;
+                margin: 15px 5px;
+                text-decoration: none;
+            }
+
+            .box-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            margin: 7px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Our Products</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="box-img">
+                <img class="img"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAG1BMVEXMzMyWlpacnJzFxcW3t7eqqqqxsbGjo6O+vr5a1lXPAAABV0lEQVR4nO3WzZKrIBAG0NDgz/s/8SBkjGOuVlbRW3XOIulFvkpXi8DjAQAAAAAAAAAAAAAAAAAAAAAAwDXyEDHlVpZIUXbVaeDDxHfUBiKlpbExpVqVP9Vp4NPEV4xpeH7kFPkxp9hWp4FPE98xtdkuLZQ20CHNm2pRWtMljfvAYeIS0aYY6bfDuTb8qvpPlv4i3gLHiSuUtq6XAbfe6iIZNlUzp6mupfIWOE5cpq2ePupcu35V3ZTKbvn35XacuMjYNqFnr/XrVXVz2m1IPXCSuMaQYnlJT+Y7/B31M3CzJ5Ij9ePtZMXHdtRr4GbvyPT7733nKesetG64tYrNfrQGThIXKGtbx6dCRH0K+S1wr3NkWjs8PKfHOuhx9xjOE1dYbk6Lx+HNKUc/M/Jb4FZ3rfS01P++y45t5a8rahu41e0XAAAAAAAAAAAAAAAAAAAAAAD+Iz9PTwZIodWCEwAAAABJRU5ErkJggg=="
+                    alt="">
+            </div>
+            <h4>Product 1</h4>
+            <p>Desscription of Product 1</p>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img class="img"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAG1BMVEXMzMyWlpacnJzFxcW3t7eqqqqxsbGjo6O+vr5a1lXPAAABV0lEQVR4nO3WzZKrIBAG0NDgz/s/8SBkjGOuVlbRW3XOIulFvkpXi8DjAQAAAAAAAAAAAAAAAAAAAAAAwDXyEDHlVpZIUXbVaeDDxHfUBiKlpbExpVqVP9Vp4NPEV4xpeH7kFPkxp9hWp4FPE98xtdkuLZQ20CHNm2pRWtMljfvAYeIS0aYY6bfDuTb8qvpPlv4i3gLHiSuUtq6XAbfe6iIZNlUzp6mupfIWOE5cpq2ePupcu35V3ZTKbvn35XacuMjYNqFnr/XrVXVz2m1IPXCSuMaQYnlJT+Y7/B31M3CzJ5Ij9ePtZMXHdtRr4GbvyPT7733nKesetG64tYrNfrQGThIXKGtbx6dCRH0K+S1wr3NkWjs8PKfHOuhx9xjOE1dYbk6Lx+HNKUc/M/Jb4FZ3rfS01P++y45t5a8rahu41e0XAAAAAAAAAAAAAAAAAAAAAAD+Iz9PTwZIodWCEwAAAABJRU5ErkJggg=="
+                    alt="">
+            </div>
+            <h4>Product 2</h4>
+            <p>Desscription of Product 2</p>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img class="img"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAG1BMVEXMzMyWlpacnJzFxcW3t7eqqqqxsbGjo6O+vr5a1lXPAAABV0lEQVR4nO3WzZKrIBAG0NDgz/s/8SBkjGOuVlbRW3XOIulFvkpXi8DjAQAAAAAAAAAAAAAAAAAAAAAAwDXyEDHlVpZIUXbVaeDDxHfUBiKlpbExpVqVP9Vp4NPEV4xpeH7kFPkxp9hWp4FPE98xtdkuLZQ20CHNm2pRWtMljfvAYeIS0aYY6bfDuTb8qvpPlv4i3gLHiSuUtq6XAbfe6iIZNlUzp6mupfIWOE5cpq2ePupcu35V3ZTKbvn35XacuMjYNqFnr/XrVXVz2m1IPXCSuMaQYnlJT+Y7/B31M3CzJ5Ij9ePtZMXHdtRr4GbvyPT7733nKesetG64tYrNfrQGThIXKGtbx6dCRH0K+S1wr3NkWjs8PKfHOuhx9xjOE1dYbk6Lx+HNKUc/M/Jb4FZ3rfS01P++y45t5a8rahu41e0XAAAAAAAAAAAAAAAAAAAAAAD+Iz9PTwZIodWCEwAAAABJRU5ErkJggg=="
+                    alt="">
+            </div>
+            <h4>Product 3</h4>
+            <p>Desscription of Product 3</p>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img class="img"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAG1BMVEXMzMyWlpacnJzFxcW3t7eqqqqxsbGjo6O+vr5a1lXPAAABV0lEQVR4nO3WzZKrIBAG0NDgz/s/8SBkjGOuVlbRW3XOIulFvkpXi8DjAQAAAAAAAAAAAAAAAAAAAAAAwDXyEDHlVpZIUXbVaeDDxHfUBiKlpbExpVqVP9Vp4NPEV4xpeH7kFPkxp9hWp4FPE98xtdkuLZQ20CHNm2pRWtMljfvAYeIS0aYY6bfDuTb8qvpPlv4i3gLHiSuUtq6XAbfe6iIZNlUzp6mupfIWOE5cpq2ePupcu35V3ZTKbvn35XacuMjYNqFnr/XrVXVz2m1IPXCSuMaQYnlJT+Y7/B31M3CzJ5Ij9ePtZMXHdtRr4GbvyPT7733nKesetG64tYrNfrQGThIXKGtbx6dCRH0K+S1wr3NkWjs8PKfHOuhx9xjOE1dYbk6Lx+HNKUc/M/Jb4FZ3rfS01P++y45t5a8rahu41e0XAAAAAAAAAAAAAAAAAAAAAAD+Iz9PTwZIodWCEwAAAABJRU5ErkJggg=="
+                    alt="">
+            </div>
+            <h4>Product 4</h4>
+            <p>Desscription of Product 4</p>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img class="img"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAG1BMVEXMzMyWlpacnJzFxcW3t7eqqqqxsbGjo6O+vr5a1lXPAAABV0lEQVR4nO3WzZKrIBAG0NDgz/s/8SBkjGOuVlbRW3XOIulFvkpXi8DjAQAAAAAAAAAAAAAAAAAAAAAAwDXyEDHlVpZIUXbVaeDDxHfUBiKlpbExpVqVP9Vp4NPEV4xpeH7kFPkxp9hWp4FPE98xtdkuLZQ20CHNm2pRWtMljfvAYeIS0aYY6bfDuTb8qvpPlv4i3gLHiSuUtq6XAbfe6iIZNlUzp6mupfIWOE5cpq2ePupcu35V3ZTKbvn35XacuMjYNqFnr/XrVXVz2m1IPXCSuMaQYnlJT+Y7/B31M3CzJ5Ij9ePtZMXHdtRr4GbvyPT7733nKesetG64tYrNfrQGThIXKGtbx6dCRH0K+S1wr3NkWjs8PKfHOuhx9xjOE1dYbk6Lx+HNKUc/M/Jb4FZ3rfS01P++y45t5a8rahu41e0XAAAAAAAAAAAAAAAAAAAAAAD+Iz9PTwZIodWCEwAAAABJRU5ErkJggg=="
+                    alt="">
+            </div>
+            <h4>Product 5</h4>
+            <p>Desscription of Product 5</p>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img class="img"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAG1BMVEXMzMyWlpacnJzFxcW3t7eqqqqxsbGjo6O+vr5a1lXPAAABV0lEQVR4nO3WzZKrIBAG0NDgz/s/8SBkjGOuVlbRW3XOIulFvkpXi8DjAQAAAAAAAAAAAAAAAAAAAAAAwDXyEDHlVpZIUXbVaeDDxHfUBiKlpbExpVqVP9Vp4NPEV4xpeH7kFPkxp9hWp4FPE98xtdkuLZQ20CHNm2pRWtMljfvAYeIS0aYY6bfDuTb8qvpPlv4i3gLHiSuUtq6XAbfe6iIZNlUzp6mupfIWOE5cpq2ePupcu35V3ZTKbvn35XacuMjYNqFnr/XrVXVz2m1IPXCSuMaQYnlJT+Y7/B31M3CzJ5Ij9ePtZMXHdtRr4GbvyPT7733nKesetG64tYrNfrQGThIXKGtbx6dCRH0K+S1wr3NkWjs8PKfHOuhx9xjOE1dYbk6Lx+HNKUc/M/Jb4FZ3rfS01P++y45t5a8rahu41e0XAAAAAAAAAAAAAAAAAAAAAAD+Iz9PTwZIodWCEwAAAABJRU5ErkJggg=="
+                    alt="">
+            </div>
+            <h4>Product 6</h4>
+            <p>Desscription of Product 6</p>
+        </div>
+    </div>
+</body>
+
+</html>
