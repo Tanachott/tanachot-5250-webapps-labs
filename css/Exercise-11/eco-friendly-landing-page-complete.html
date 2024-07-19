@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex.11 Prob2. 643040525-0</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bar {
+            background-color: #8CB457;
+            overflow: hidden;
+            padding: 15px;
+        }
+
+        .container {
+            background-color: #C5C5C5;
+            height: 300px;
+            align-content: center;
+        }
+
+        h1 {
+            color: #275428;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .con-button {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .button {
+            padding: 13px;
+            color: white;
+            background-color: #275428;
+            border: 0 solid #275428;
+            border-radius: 5px;
+        }
+
+        .box-content {
+            width: 80%;
+            margin: auto;
+            padding: 50px 0;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(274px, 1fr));
+            /* gap: 1rem; */
+        }
+
+        h3 {
+            margin-left: 15px;
+        }
+
+        .box {
+            border-radius: 10px;
+            border: 1px solid #C5C5C5;
+            margin: 15px 15px;
+        }
+
+        .box-img {
+            width: 100%;
+            background-color: #C5C5C5;
+            height: 200px;
+            border-radius: 10px 10px 0px 0px
+        }
+
+        p {
+            padding: 0px 15px 15px 15px;
+        }
+
+        h4 {
+            padding: 15px 15px 7px 15px;
+            color: #275428;
+            font-weight: 700;
+        }
+
+        @media (min-width: 1024px) {
+            ul {
+                list-style: none;
+                text-align: center;
+            }
+
+            li {
+                display: inline-block;
+            }
+
+            li a {
+                color: white;
+                padding: 5px 20px 10px 20px;
+                margin: 15px 5px;
+                text-decoration: none;
+                font-weight: 600
+            }
+        }
+
+        @media (max-width: 1023px) {
+            ul {
+                list-style: none;
+                text-align: center;
+                padding: 12px;
+            }
+
+            li {
+                margin: 10px;
+            }
+
+            li a {
+                color: white;
+                padding: 5px 20px 10px 20px;
+                margin: 22px 5px;
+                text-decoration: none;
+                font-weight: 600
+            }
+        }
+
+        @media (max-width: 767px) {
+            ul {
+                list-style: none;
+                text-align: center;
+                padding: 12px;
+            }
+
+            li {
+                margin: 10px;
+            }
+
+            li a {
+                color: white;
+                padding: 5px 20px 10px 20px;
+                margin: 15px 5px;
+                text-decoration: none;
+                font-weight: 600
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Eco-Friendly Living Made Easy</h1>
+        <div class="con-button">
+            <button type="button" class="button">Shop Now</button>
+        </div>
+    </div>
+    <div class="box-content">
+        <h3>Our Featured Products</h3>
+        <div class="content">
+            <div class="box">
+                <div class="box-img">
+                </div>
+                <h4>Bamboo Toothbrush</h4>
+                <p>Sustainable oral care for a greener future.</p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                </div>
+                <h4>Reusable Water Bottle</h4>
+                <p>Stay hydrated while reducing plastic waste.</p>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                </div>
+                <h4>Organic Cotton Tote Bag</h4>
+                <p>Shop in style with our durable,eco-friendly bags.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
