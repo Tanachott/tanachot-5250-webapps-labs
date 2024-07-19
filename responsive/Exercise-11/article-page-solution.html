@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 10 643040525-0 Tanachot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            background-color: #212121;
+            overflow: hidden;
+        }
+
+        h2 {
+            color: white;
+            padding: 7px 15px;
+            margin: 5px 5px 5px 8px;
+            font-size: 30px;
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        h3 {
+            margin: 20px 0 15px 0;
+        }
+
+        .ul-articles {
+            margin-bottom: 5px;
+        }
+
+        .li-articles {
+            margin-left: 30px;
+            margin-bottom: 7px;
+        }
+
+        .li-articles a {
+            color: blue;
+        }
+
+        footer {
+            background-color: #212121;
+            text-align: center;
+            color: white;
+            padding: 30px;
+        }
+
+        @media (min-width: 768px) {
+            .ul-bar {
+                list-style: none;
+            }
+
+            .li-bar {
+                float: left;
+                margin-bottom: 8px;
+            }
+
+            .li-bar a {
+                display: inline;
+                color: white;
+                padding: 5px 20px 10px 20px;
+                margin: 15px 5px;
+                text-decoration: none;
+            }
+
+            .main-container {
+                display: flex;
+                margin: 10px;
+                padding: 15px;
+            }
+
+            article {
+                width: 70%;
+                padding: 12px;
+                margin: 0 8px;
+            }
+
+            aside {
+                width: 30%;
+                background-color: rgb(244, 244, 244);
+                padding: 12px;
+                margin: 0 8px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .ul-bar {
+                list-style: none;
+            }
+
+            .li-bar {
+                float: none;
+                margin-bottom: 8px;
+            }
+
+            .li-bar a {
+                display: inline;
+                color: white;
+                padding: 5px 20px 10px 20px;
+                margin: 15px 5px;
+                text-decoration: none;
+            }
+
+            .main-container {
+                display: flex;
+                flex-direction: column;
+                margin: 30px 10px;
+                padding: 15px;
+            }
+
+            article {
+                width: 100%;
+                padding: 12px;
+                margin: 0 8px;
+            }
+
+            aside {
+                width: fit-content;
+                background-color: rgb(244, 244, 244);
+                padding: 12px;
+                margin: 15px 8px 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>My Blog</h2>
+        <ul class="ul-bar">
+            <li class="li-bar"><a href="#">Home</a></li>
+            <li class="li-bar"><a href="#">Articles</a></li>
+            <li class="li-bar"><a href="#">About</a></li>
+            <li class="li-bar"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="main-container">
+        <article>
+            <h1>Main Article Title</h1>
+            <p>This is the main content of your article. It should be long enough to demonstrate responsive typography 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </article>
+        <aside>
+            <h3>Related Articles</h3>
+            <ul class="ul-articles">
+                <li class="li-articles"><a href="#">Related Articles 1</a></li>
+                <li class="li-articles"><a href="#">Related Articles 2</a></li>
+                <li class="li-articles"><a href="#">Related Articles 3</a></li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Blog.All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
