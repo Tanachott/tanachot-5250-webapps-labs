@@ -43,25 +43,26 @@ aside ul li::before {
 
 .bar {
     overflow: hidden;
-
-    border: 3px solid black;
 }
 
 .bar ul {
     list-style: none;
+    text-align: center;
 }
 
 .bar li {
-    float: left;
+    display: inline-block;
     padding: 1em;
 }
 
 .bar li a {
     display: flexbox;
-    padding: 17px 20px;
+    padding: 0.5rem 1rem;
     text-decoration: none;
 }
 
 .bar li a:hover {
-    background-color: #28c0d7;
+    background-color: #4ae1f8;
+    transition-delay: 0.3s;
+    cursor: pointer;
 }
