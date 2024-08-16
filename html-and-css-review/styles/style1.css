@@ -31,11 +31,11 @@ aside {
     margin: 0 8px;
 }
 
-ul {
+aside ul {
     list-style-type: none;
 }
 
-ul li::before {
+aside ul li::before {
     content: "\2192";
     margin-right: 0.5rem;
     color: #333;
