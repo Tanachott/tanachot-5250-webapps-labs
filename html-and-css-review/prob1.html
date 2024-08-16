@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prob1</title>
+    <style>
+        * {
+            margin: 5px;
+        }
+
+        form input {
+            margin: 3px 0;
+        }
+
+        fieldset {
+            display: inline-block;
+            width: 230px;
+        }
+
+        fieldset label {
+            margin-right: 7px;
+        }
+
+        form input[type="checkbox"] {
+            margin: 10px 0px;
+        }
+
+        img {
+            width: 624px;
+            height: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML5 Review</h1>
+    <div>
+        <h2>Registration Form</h2>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+            </table>
+            <fieldset>
+                <legend>Select a plan:</legend>
+                <input type="radio" id="basic" name="plan" value="basic">
+                <label for="basic" style="margin-left: -2px;">Basic</label>
+                <input type="radio" id="pro" name="plan" value="pro">
+                <label for="pro" style="margin-left: -2px;">Pro</label>
+                <input type="radio" id="enterprise" name="plan" value="enterprise">
+                <label for="enterprise" style="margin-left: -2px;">Enterprise</label>
+            </fieldset><br>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I agree to the terms and conditions</label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div>
+        <h2>Featured Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yHTKnU9FCw8?si=KoVr2MJWU0rzg-K5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p>Your browser does not support iframes. You can <a href="https://www.youtube.com/embed/yHTKnU9FCw8?si=KoVr2MJWU0rzg-K5" target="_blank">watch the video here.</a></p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+                <ol>
+                    <li>Subitem 1</li>
+                    <li>Subitem 2</li>
+                </ol>
+                <img src="https://www.en.kku.ac.th/web/wp-content/uploads/2016/03/C-1-of-1-1024x650.jpg" alt="วิศวะ 50ปี khon kean university">
+                <figcaption style="margin-top: -10px;">Figure Caption: Time management tips</figcaption>
+            </li>
+        </ul>
+        <p style="margin-top: 20px;">&copy; 2024 Tanachot Siritrakulmangkang (643040525-0)</p>
+    </div>
+</body>
+
+</html>
