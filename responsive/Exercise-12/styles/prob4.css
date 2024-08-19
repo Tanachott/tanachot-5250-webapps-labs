@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+}
+
+.grid-items {
+  border: 2px solid rgb(106, 105, 105);
+  background-color: rgb(223, 219, 219);
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width: 769px) {
+
+}
+
+@media (min-width: 481px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
