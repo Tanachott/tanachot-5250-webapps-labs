@@ -84,7 +84,7 @@ nav a.current {
 
   .gallery {
     text-align: center;
-    display: flex;
+    display: flexbox;
     object-fit: cover;
   }
   
