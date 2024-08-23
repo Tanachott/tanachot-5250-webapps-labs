@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Prob1</title>
+</head>
+<body>
+    <script>
+
+        function Positive(n) {
+            try { 
+                if (n >= 0) {
+                    return true;
+                } else
+                    return false;
+            } catch (error) {
+                return false;
+            }
+        }
+
+        function showPrimes(n) {
+            let primes = [];
+            for (let i = 2; i <= n; i++) {
+                if (!isPrime(i)) continue;
+                primes.push(i);
+            }
+            alert('For n='+ n +' prime number are ' + primes); // a prime
+        }
+
+        function isPrime(n) {
+            for (let i = 2; i < n; i++) {
+                if (n % i == 0) return false;
+            }
+            return true;
+        }
+
+        let input = 0;
+
+        while (true) {
+            let n = prompt('Enter a positive integer');
+            n = parseInt(n);
+            if(Positive(n)) {
+                input = n;
+                break;
+            }
+        }
+        showPrimes(input);  // Call the function
+        
+    </script>
+
+    <h1 style="font-size: 50px;">Prime Numbers Finder!</h1>
+    <p style="font-size: 25px;"> Write the web app to prompt accepting for a positive integer number</p>
+    <ul>
+        <li style="font-size: 22px;">If the entered text is not a positive integer number, then the web app will keep asking for a number until the valid positive integer is entered If the entered text is a positive integer, then the web app will add into a list of prime numbers</li>
+        <li style="font-size: 22px;">If the entered text is a positive integer, then the web app will add into a list of prime numbers</li>
+    </ul>
+    <h3 style="font-size: 25px;">Hint:</h3>2
+    <ol>
+        <li style="font-size: 22px;"> You may want to use loop with label</li>
+        <li style="font-size: 22px;"> You may want to use array with push function</li>
+    </ol>  
+</body>
+</html>
