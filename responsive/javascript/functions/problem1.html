@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem 1</title>
+</head>
+
+<body>
+    <h1 style="font-size: 50px;">Find the larger</h1>
+    <p style="font-size: 25px;">Enter two numbers to see which is larger.</p>
+    <p style="font-size: 25px; display: inline;" >The larger number between <p id="number1" style="font-size: 25px; display: inline;"></p><p id="number2" style="font-size: 25px; display: inline;"></p><p id="numberLarger" style="font-size: 25px; display: inline;"></p>.
+    </p>
+
+    <script>15
+        let inputNumber = [];
+
+        function findLarger(number) {
+            if (number[0] > number[1]) {
+                return number[0];
+            } else {
+                return number[1];
+            }
+        }
+
+        while (inputNumber.length < 2) {
+            if (inputNumber <= 0) {
+                let number = prompt('Enter the frist number:');
+                number = parseInt(number);
+                    inputNumber.push(number);
+            } else {
+                let number = prompt('Enter the second number:');
+                number = parseInt(number);
+                    inputNumber.push(number);
+            }
+        }
+
+        document.getElementById('number1').innerHTML = inputNumber[0] + " and ";
+        document.getElementById('number2').innerHTML = inputNumber[1] + " is: ";
+        document.getElementById('numberLarger').innerHTML = findLarger(inputNumber);
+    </script>
+</body>
+</html>
