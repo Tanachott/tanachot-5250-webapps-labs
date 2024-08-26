@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem3</title>
+</head>
+
+<body>
+    <script>
+        function calculator(number1, number2, operation) {
+            console.log(operation(number1, number2));
+        }
+
+        function add(number1, number2) {
+            return number1 + number2;
+        }
+
+        function subtract(number1, number2) {
+            return number1 - number2;
+        }
+
+        function multiply(number1, number2) {
+            return number1 * number2;
+        }
+
+        function divide(number1, number2) {
+            if (number2 === 0) {
+                return "Error: Division by zero";
+            }
+            return number1 / number2;
+        }
+
+        calculator(5, 3, add);
+        calculator(5, 3, subtract);
+        calculator(5, 3, multiply);
+        calculator(6, 3, divide);
+    </script>
+
+</body>
+
+</html>
