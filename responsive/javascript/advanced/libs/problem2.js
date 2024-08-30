@@ -54,7 +54,15 @@ document.write(library.searchBooks("Design Thinking"));
 document.write("<br/>These are the books in the library:<br/>");
 
 function displayBooks(book) {
-    document.write("<ol><il>" + book.title + + " by " + book.author +"</il></ol>");
+    document.write( book.title + " by " + book.author + ". <br/>");
 }
 
 library.books.forEach(displayBooks);
+
+displayBooks: () => {
+    document.write("<br/>These are the books in the library:<br/>");
+    library.books.forEach((book, index) => {
+        document.write((index + 1) + ". " + book.title + " by " + book.author + ". <br/>");
+    });
+}
+displayBooks();
