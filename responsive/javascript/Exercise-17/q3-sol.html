@@ -57,9 +57,14 @@
         // name[0].getElementsByTagName('h1')[0].innerHTML = "Hello, world";
         // name[1].getElementsByTagName('h1')[0].innerHTML = "Hello, world";
 
-        let tagname = document.getElementsByTagName('h1');
-        tagname[0].innerHTML = "Hello, world";
-        tagname[1].innerHTML = "Hello, world";
+        // let tagname = document.getElementsByTagName('h1');
+        // tagname[0].innerHTML = "Hello, world";
+        // tagname[1].innerHTML = "Hello, world";
+
+        let tag = document.getElementsByTagName('h1');
+        for (let i = 0; i < tag.length; i++) {
+            tag[i].innerHTML = "Hello, world";
+        }
 
     </script>
 </body>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple DOM Manipulation</title>
+  </head>
+  <body>
+    <h1 id="main-title">Welcome to DOM Manipulation</h1>
+    <div id="content">
+      <p class="paragraph">This is the first paragraph.</p>
+      <p class="paragraph">This is the second paragraph.</p>
+      <ul id="list">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+    <button id="add-item">Add Item</button>
+
+    <script>
+
+        let mainTitle = document.getElementById("main-title");
+        mainTitle.textContent = "DOM Manipulation Mastery";
+
+        let paragraphElements = document.querySelectorAll(".paragraph");
+        for (let i = 0; i < paragraphElements.length; i++) {
+            paragraphElements[i].style.backgroundColor = "yellow";
+        }
+
+        let list = document.getElementById("list");
+        let newItem = document.createElement("li");
+        newItem.textContent = "New Item";
+        list.appendChild(newItem);
+
+        let addItemButton = document.getElementById("add-item");
+        addItemButton.addEventListener("click", function() {
+            let newItem = document.createElement("li");
+            newItem.textContent = "Item " + ((list.children.length - 1) + 1);
+            list.appendChild(newItem);
+        });
+
+    </script>
+  </body>
+</html>
