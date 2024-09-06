@@ -30,8 +30,11 @@
 
         let newlink = document.createElement("img");
         newlink.href = "https://www.en.kku.ac.th/web/";
-        newlink.target = "_blank";
+        img.addEventListener("click", function() {
+            window.open(newlink.href, "_blank");
+        });
         newlink.appendChild(image);
+
     </script>
 </body>
 
