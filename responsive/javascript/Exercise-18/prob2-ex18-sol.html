@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<body>
+    <div id="todo-app">
+        <input type="text" id="todo-input" placeholder="Enter a new task" />
+        <button id="add-todo">Add Task</button>
+        <ul id="todo-list"></ul>
+    </div>
+    <script>
+
+        let addTodoBtn = document.getElementById('add-todo');
+        let todoInput = document.getElementById('todo-input');
+
+        addTodoBtn.onclick = function() {
+            let todoItem = document.createElement('li');
+            todoItem.textContent = todoInput.value;
+            document.getElementById('todo-list').appendChild(todoItem);
+            todoInput.value = '';
+
+            let removeBtn = document.createElement('button');
+            removeBtn.textContent = 'Delete';
+            todoItem.appendChild(removeBtn);
+        }
+
+        let todoList = document.getElementById('todo-list');
+        todoList.addEventListener('click', function(event) {
+            if (event.target.tagName === 'BUTTON') {
+                event.target.parentNode.remove();
+            }
+        });
+
+    </script>
+</body>
+
+</html>
