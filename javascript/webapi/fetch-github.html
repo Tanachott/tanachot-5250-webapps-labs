@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <style>
+        .avatar-img {
+            border: 5px solid blue;
+            border-radius: 50%;
+            width: 200px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="name"></h1>
+    <img src="" alt="Profile" id="img" class="avatar-img">
+    <script>
+        let url = "https://api.github.com/users/tanachott";
+        let avatar_url = "https://avatars.githubusercontent.com/u/96067144?v=4";
+        let html_url = "https://github.com/Tanachott";
+
+        fetch(url)
+       .then((Response) => Response.json())
+       .then((data) => {
+            let name = document.getElementById('name');
+            let image = document.getElementById('img');
+            let linkImage = document.createElement('a');
+            let linkName = document.createElement('a');
+
+            linkName.target = '_blank';
+            linkName.href = data['html_url'];
+            linkName.innerHTML = data['login'];
+            name.appendChild(linkName);
+
+            image.src = data['avatar_url'];
+            image.className = 'avatar-img';
+            linkImage.target = '_blank';
+            linkImage.href = data['avatar_url'];
+            image.appendChild(linkImage);
+
+        });
+      
+    </script>
+</body>
+
+</html>
