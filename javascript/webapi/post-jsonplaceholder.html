@@ -26,8 +26,7 @@
         })
         .then ((json) => {
             console.log(json);
-            document.getElementById("results").innerHTML = json ;
-            document.getElementById("results").innerHTML = "The new post has title as " + json.title + " and body as " + json.body;
+            document.getElementById("results").innerHTML = JSON.stringify(json) + "<br><br> The new post has title as " + json.title + " and body as " + json.body;
         })
         .catch((error) => {
             // console.error('Error:', error);
