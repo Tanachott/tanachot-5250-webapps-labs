@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Reading Students Information</h1>
+    <ol id="listName"></ol>
+    <script>
+        fetch("/javascript/webapi/students.json")
+        .then((response) => {
+            return response.json();
+        })
+        .then ((data) => {
+            wclass = data.wclass;
+            let res = "</ol>";
+            for (let wclasses of wclass) {
+                res += "<li>" + wclasses.student["@attributes"].id + " <b>" + wclasses.student.name + "</b> has skills " + wclasses.student.skill +"</li>";
+            }
+            res += "</ol>";
+            document.getElementById("listName").innerHTML = res;
+        })
+        .catch((error) => {
+            // console.error('Error:', error);
+        });
+
+    </script>
+</body>
+</html>
