@@ -17,7 +17,7 @@
             wclass = data.wclass;
             let res = "</ol>";
             for (let wclasses of wclass) {
-                res += "<li>" + wclasses.student["@attributes"].id + " <b>" + wclasses.student.name + "</b> has skills " + wclasses.student.skill +"</li>";
+                res += "<li>" + wclasses.student["@attributes"].id + " <b>" + wclasses.student.name + "</b> has skills <em>" + wclasses.student.skill +"</em></li>";
             }
             res += "</ol>";
             document.getElementById("listName").innerHTML = res;
