@@ -7,7 +7,7 @@ function getOperation() {
     })
 
     operation.question("add | subtract : ", (operation) => {
-        // operation = operation.lowerCase();
+        operation = operation.toLowerCase();
 
         if (operation === "add") {
             const sum2 = args.map((num) => parseFloat(num)).reduce((total, x) => total + x);
@@ -29,7 +29,7 @@ function check(arr) {
         console.error("Please enter at least two numbers.");
         process.exit(1);
     } else
-    
+
     for (let i = 0; i < arr.length; i++) {
         if (isNaN(arr[i])) {
             console.error("Please enter only numbers.");
