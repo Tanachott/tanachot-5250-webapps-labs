@@ -1,6 +1,12 @@
 {
   "type": "module",
+  "scripts": {
+    "start": "node calculator.js",
+    "add": "node add.js",
+    "subtract": "node subtract.js"
+  },
   "dependencies": {
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "progress": "^2.0.3"
   }
 }
