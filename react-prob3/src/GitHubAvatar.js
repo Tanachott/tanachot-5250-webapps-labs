@@ -1,9 +1,13 @@
 import './App.css';
-function GitHubAvatar({ username , size = 50}) {
-    const avatarUrl = `https://avatars.githubusercontent.com/u/96067144?v=4&size=64`;
+
+function GitHubAvatar({ ImageURL , size = 50}) {
 
     return (
-        <img src={avatarUrl} alt={`Avatar of tanachot`} width={size} height={size}/>
+        <img 
+        src={ImageURL} 
+        alt="GitHub Avatar"
+        width={size} 
+        height={size}/>
     );
 }
 
