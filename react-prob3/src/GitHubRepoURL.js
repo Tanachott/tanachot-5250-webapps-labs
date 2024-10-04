@@ -1,14 +1,14 @@
 import './App.css';
 
-function GitHubRepoURL({link}) {
+function GitHubRepoURL() {
     return (
         <a
         className="App-link"
-        href={link}
+        href="https://github.com/Tanachott/tanachot-5250-webapps-labs"
         target="_blank"
         rel="noopener noreferrer"
       >
-        My GitHub repository
+        GitHub repository
       </a>
     )
 }

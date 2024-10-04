@@ -1,0 +1,10 @@
+import './App.css';
+function GitHubAvatar({ username , size = 50}) {
+    const avatarUrl = `https://avatars.githubusercontent.com/u/96067144?v=4&size=64`;
+
+    return (
+        <img src={avatarUrl} alt={`Avatar of tanachot`} width={size} height={size}/>
+    );
+}
+
+export default GitHubAvatar;
