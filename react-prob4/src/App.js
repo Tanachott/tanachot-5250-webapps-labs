@@ -6,16 +6,17 @@ function App() {
   return (
     <div>
       <header>
-      <h1>Sample Github Reppositories</h1>
-        {users.map((user) => {
-          return (
-            <ol>
-              <li>
-              <GitHubInfo userInfo={user}/>
+        <h1>Sample Github Reppositories</h1>
+        <ol>
+          {users.map((user, index) => {
+            return (
+              <li key={index}>
+                <p></p>
+                <GitHubInfo userInfo={user} />
               </li>
-            </ol>
-          );
-        })}
+            );
+          })}
+        </ol>
       </header>
     </div>
   );

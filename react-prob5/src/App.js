@@ -7,15 +7,15 @@ function App() {
     <div>
       <header>
       <h1>Sample Github Reppositories</h1>
+      <ol>
       {users.filter((user) => user.followers > 10000).map((user) => {
           return (
-            <ol>
               <li>
               <GitHubInfo userInfo={user}/>
               </li>
-            </ol>
           );
         })}
+        </ol>
       </header>
     </div>
   );
