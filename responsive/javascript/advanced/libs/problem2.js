@@ -10,7 +10,8 @@ class Library {
 
     searchBooks(keyword) {
         for(let book of this.books) {
-            if (book.title.toLowerCase().includes(keyword.toLowerCase()) || book.author.toLowerCase().includes(keyword.toLowerCase())) {
+            if (book.title.toLowerCase().includes(keyword.toLowerCase()) 
+                || book.author.toLowerCase().includes(keyword.toLowerCase())) {
                 return 'Found ' + book.title + ' by ' + book.author + '. <br/>';
             }
         }

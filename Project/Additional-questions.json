@@ -1,0 +1,91 @@
+{
+  "line": {
+    "quickReply": {
+      "items": [
+        {
+          "action": {
+            "type": "message",
+            "text": "บริการ Maker Space",
+            "label": "บริการ Maker Space"
+          },
+          "type": "action",
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+        },
+        {
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+          "action": {
+            "type": "message",
+            "text": "จิตอาสา",
+            "label": "จิตอาสา"
+          },
+          "type": "action"
+        },
+        {
+          "type": "action",
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+          "action": {
+            "label": "สมัครสมาชิก",
+            "type": "message",
+            "text": "สมัครสมาชิก"
+          }
+        },
+        {
+          "action": {
+            "type": "message",
+            "text": "turnitin",
+            "label": "turnitin"
+          },
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+          "type": "action"
+        },
+        {
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+          "type": "action",
+          "action": {
+            "text": "ยืมโน้ตบุ๊ก/iPad",
+            "type": "message",
+            "label": "ยืมโน้ตบุ๊ก/iPad"
+          }
+        },
+        {
+          "type": "action",
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+          "action": {
+            "text": "VPN KKUMail WiFi",
+            "label": "VPN KKUMail WiFi",
+            "type": "message"
+          }
+        },
+        {
+          "type": "action",
+          "action": {
+            "label": "Canva for Edu",
+            "text": "Canva for Edu",
+            "type": "message"
+          },
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+        },
+        {
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+          "action": {
+            "label": "การเชื่อมต่อ eduroam",
+            "text": "การเชื่อมต่อ eduroam",
+            "type": "message"
+          },
+          "type": "action"
+        },
+        {
+          "action": {
+            "type": "message",
+            "label": "ติดตั้งแอพใน iPad",
+            "text": "ติดตั้งแอพใน iPad"
+          },
+          "type": "action",
+          "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+        }
+      ]
+    },
+    "text": "เรื่องที่ต้องการสอบถาม",
+    "type": "text"
+  }
+}

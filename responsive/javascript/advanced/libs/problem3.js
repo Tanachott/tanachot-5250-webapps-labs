@@ -1,5 +1,4 @@
 const numbers = [1, 2, 3, 4, 5];
-
 const doubleNumbers = (arr) => {
     let result = [];
     for (let i = 0; i < arr.length; i++) {
@@ -7,7 +6,6 @@ const doubleNumbers = (arr) => {
     }
     return result;
 }
-
 const calculateSum = (arr) => {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
@@ -15,10 +13,8 @@ const calculateSum = (arr) => {
     }
     return sum;
 }
-
 let doubledNumbers = doubleNumbers(numbers);
 let sum = calculateSum(doubledNumbers);
-
 const person = {
     name: "John",
     age: 30,
@@ -26,6 +22,5 @@ const person = {
         console.log('My name is ' + this.name + ' and I am ' + this.age + ' years old.');
     }
 };
-
 console.log("The sum of doubled numbers is: " + sum);
 person.introduce();

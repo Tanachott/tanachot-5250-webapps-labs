@@ -1,0 +1,147 @@
+{
+    "line": {
+      "altText": "Flex Message",
+      "contents": {
+        "type": "carousel",
+        "contents": [
+          {
+            "hero": {
+              "type": "image",
+              "url": "https://scontent.fkkc3-1.fna.fbcdn.net/v/t39.30808-6/429649658_729786579244422_4245040609641388625_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFiMLiqb5B4PhozJmfCZsoS31QAJcz5UtTfVAAlzPlS1ABLPmSKo2iwcR89ZbQVGRfUjvDNkr9Kya8h5jlwZslj&_nc_ohc=l0lYoKJSBMMQ7kNvgHvTo4-&_nc_ht=scontent.fkkc3-1.fna&_nc_gid=Aut0ZOUlZJweevHeqPOB_-S&oh=00_AYCOVN3c_Xq634qDHV72M_QVATYEw8sD0gKbJTKen4vqxQ&oe=66FAC4C3",
+              "size": "full",
+              "action": {
+                "uri": "https://www.m.me/KKULib",
+                "type": "uri"
+              },
+              "backgroundColor": "#FFFFFFFF",
+              "aspectRatio": "1:1"
+            },
+            "size": "nano",
+            "footer": {
+              "contents": [
+                {
+                  "weight": "bold",
+                  "text": "Live chat",
+                  "gravity": "center",
+                  "type": "text",
+                  "action": {
+                    "uri": "https://www.m.me/KKULib",
+                    "type": "uri"
+                  },
+                  "align": "center",
+                  "contents": []
+                }
+              ],
+              "type": "box",
+              "layout": "horizontal"
+            },
+            "direction": "ltr",
+            "type": "bubble"
+          },
+          {
+            "type": "bubble",
+            "size": "nano",
+            "direction": "ltr",
+            "hero": {
+              "url": "https://vos.line-scdn.net/card-type-message-image-2024/677ygrag/1726051630091-pZ1VzxBvEdNtgmsuwG0DNAlGqZQPoueh7MNTHPvCifGpYRq42y",
+              "type": "image",
+              "backgroundColor": "#FFFFFFFF",
+              "action": {
+                "uri": "https://library.kku.ac.th/",
+                "type": "uri"
+              },
+              "aspectRatio": "1:1",
+              "size": "full"
+            },
+            "footer": {
+              "contents": [
+                {
+                  "text": "Website",
+                  "action": {
+                    "uri": "https://library.kku.ac.th/",
+                    "type": "uri"
+                  },
+                  "align": "center",
+                  "contents": [],
+                  "type": "text",
+                  "gravity": "center",
+                  "weight": "bold"
+                }
+              ],
+              "type": "box",
+              "layout": "horizontal"
+            }
+          },
+          {
+            "type": "bubble",
+            "direction": "ltr",
+            "hero": {
+              "url": "https://scontent.fbkk29-1.fna.fbcdn.net/v/t39.30808-6/458146767_837776118445467_8914281316623824023_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeGT_EwHFD-yVyh3J_UWmAMxT9kQjoSZUplP2RCOhJlSmeKuHp2Ul_y2WtQmUbuI_TJOzrYAt8F9Lw9mI4N8e0fC&_nc_ohc=PpA2T1ZqLaAQ7kNvgH2GUc5&_nc_ht=scontent.fbkk29-1.fna&oh=00_AYAJDNHYM4aq2HMMzywquFI397K22lkiF9JSYnvW2yXe7Q&oe=66F76BB8",
+              "type": "image",
+              "aspectRatio": "1:1",
+              "backgroundColor": "#FFFFFFFF",
+              "size": "full",
+              "action": {
+                "uri": "https://www.facebook.com/KKULib/",
+                "type": "uri"
+              }
+            },
+            "footer": {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "align": "center",
+                  "gravity": "center",
+                  "action": {
+                    "uri": "https://www.facebook.com/KKULib/",
+                    "type": "uri"
+                  },
+                  "text": "Facebook",
+                  "contents": [],
+                  "weight": "bold"
+                }
+              ]
+            },
+            "size": "nano"
+          },
+          {
+            "action": {
+              "type": "uri",
+              "uri": "https://www.youtube.com/@KKULib"
+            },
+            "footer": {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "action": {
+                    "type": "uri",
+                    "uri": "https://www.youtube.com/@KKULib"
+                  },
+                  "type": "text",
+                  "gravity": "center",
+                  "contents": [],
+                  "weight": "bold",
+                  "text": "Youtube",
+                  "align": "center"
+                }
+              ]
+            },
+            "type": "bubble",
+            "direction": "ltr",
+            "hero": {
+              "size": "full",
+              "type": "image",
+              "url": "https://yt3.googleusercontent.com/mdEot4YbNZjQq8l2cGf30P7OoCkoLwqjs_iR2x4GikkxmjZJxrhYglxNmIGhjkAspHtDdvN3=s1600-c-k-c0x00ffffff-no-rj",
+              "backgroundColor": "#FFFFFFFF",
+              "aspectRatio": "1:1"
+            },
+            "size": "nano"
+          }
+        ]
+      },
+      "type": "flex"
+    }
+  }

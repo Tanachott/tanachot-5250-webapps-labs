@@ -1,0 +1,127 @@
+{
+    "line": {
+      "text": "เรื่องที่ต้องการสอบถาม",
+      "quickReply": {
+        "items": [
+          {
+            "action": {
+              "text": "การเปิดบริการห้องสมุด",
+              "type": "message",
+              "label": "การเปิดบริการห้องสมุด"
+            },
+            "type": "action",
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          },
+          {
+            "action": {
+              "type": "message",
+              "label": "สืบค้นข้อมูล",
+              "text": "สืบค้นข้อมูล"
+            },
+            "type": "action",
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          },
+          {
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+            "action": {
+              "type": "message",
+              "text": "ยืมหนังสือ",
+              "label": "ยืมหนังสือ"
+            },
+            "type": "action"
+          },
+          {
+            "action": {
+              "text": "คืนหนังสือ",
+              "label": "คืนหนังสือ",
+              "type": "message"
+            },
+            "type": "action",
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          },
+          {
+            "type": "action",
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+            "action": {
+              "type": "message",
+              "label": "หนังสือหาย",
+              "text": "หนังสือหาย"
+            }
+          },
+          {
+            "type": "action",
+            "action": {
+              "type": "message",
+              "text": "ตรวจสอบหนี้สิน",
+              "label": "ตรวจสอบหนี้สิน"
+            },
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          },
+          {
+            "action": {
+              "type": "message",
+              "label": "ชำระค่าปรับ",
+              "text": "ชำระค่าปรับ"
+            },
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+            "type": "action"
+          },
+          {
+            "type": "action",
+            "action": {
+              "label": "ลดหย่อนค่าปรับ",
+              "text": "ลดหย่อนค่าปรับ",
+              "type": "message"
+            },
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          },
+          {
+            "action": {
+              "type": "message",
+              "text": "จองห้องประชุม",
+              "label": "จองห้องประชุม"
+            },
+            "type": "action",
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          },
+          {
+            "action": {
+              "type": "message",
+              "text": "ห้อง Mini Production",
+              "label": "ห้อง Mini Production"
+            },
+            "type": "action",
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          },
+          {
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+            "action": {
+              "type": "message",
+              "label": "บริการ Chat GPT4",
+              "text": "บริการ Chat GPT4"
+            },
+            "type": "action"
+          },
+          {
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png",
+            "type": "action",
+            "action": {
+              "type": "message",
+              "text": "บริการ AI Clinic",
+              "label": "บริการ AI Clinic"
+            }
+          },
+          {
+            "action": {
+              "label": "คำถามที่พบบ่อยเพิ่มเติม",
+              "text": "คำถามที่พบบ่อยเพิ่มเติม",
+              "type": "message"
+            },
+            "type": "action",
+            "imageUrl": "https://cdn-icons-png.flaticon.com/256/3178/3178283.png"
+          }
+        ]
+      },
+      "type": "text"
+    }
+  }
